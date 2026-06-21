@@ -9,9 +9,9 @@ It connects to a backend API and allows users to browse shop items, view product
 
 Add live link here.
 
-## GitHub Repository
+## GitHub Repository for the backend
 
-https://github.com/olivermjmj/FantasyShop_Frontend
+https://github.com/olivermjmj/D-D_Shop
 
 ## Tech Stack
 
