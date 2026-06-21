@@ -1,0 +1,136 @@
+.products-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.products-page h1 {
+  margin-bottom: 2rem;
+
+  color: #f2d27b;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 430px;
+
+  background-color: #1b1b1b;
+  color: #f2f2f2;
+
+  border: 1px solid #3a3224;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+  overflow: hidden;
+}
+
+.product-card:hover {
+  border-color: #e9cc75;
+  transform: translateY(-4px);
+}
+
+.product-image {
+  height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #2b2118, #8a6a34);
+  color: #f2d27b;
+}
+
+.product-image span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 74px;
+  height: 74px;
+
+  border: 2px solid #f2d27b;
+  border-radius: 50%;
+
+  background-color: rgba(0, 0, 0, 0.25);
+
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  padding: 1.2rem;
+}
+
+.product-content h3 {
+  margin-bottom: 0.8rem;
+
+  color: #f2d27b;
+  font-size: 1.2rem;
+}
+
+.product-description {
+  line-height: 1.5;
+  color: #dddddd;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+}
+
+.product-bottom {
+  margin-top: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  padding-top: 1rem;
+}
+
+.product-price {
+  margin: 0;
+
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.product-bottom button {
+  padding: 0.7rem 1rem;
+
+  border: none;
+  background-color: #e9cc75;
+  color: #111111;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-bottom button:hover {
+  background-color: #f2d27b;
+}
+
+.product-card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  border-color: #e9cc75;
+}

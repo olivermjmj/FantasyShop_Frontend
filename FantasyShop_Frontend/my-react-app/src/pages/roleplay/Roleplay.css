@@ -1,0 +1,119 @@
+.roleplay-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.roleplay-page h1 {
+  margin-bottom: 0.5rem;
+
+  color: #f2d27b;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.roleplay-page > p {
+  margin-bottom: 2rem;
+  color: #dddddd;
+}
+
+.roleplay-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.roleplay-card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #1b1b1b;
+  color: #f2f2f2;
+
+  border: 1px solid #3a3224;
+  text-decoration: none;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.roleplay-card:hover {
+  transform: translateY(-4px);
+  border-color: #e9cc75;
+}
+
+.roleplay-image {
+  height: 170px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #f2d27b;
+}
+
+.roleplay-image span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80px;
+  height: 80px;
+
+  border: 2px solid #f2d27b;
+  border-radius: 50%;
+
+  background-color: rgba(0, 0, 0, 0.25);
+
+  font-size: 2.5rem;
+}
+
+.weapon-image {
+  background: linear-gradient(135deg, #151515, #5e1f1f);
+}
+
+.armor-image {
+  background: linear-gradient(135deg, #151a20, #4d5f73);
+}
+
+.tools-image {
+  background: linear-gradient(135deg, #241b13, #8a6230);
+}
+
+.mounts-image {
+  background: linear-gradient(135deg, #1b2118, #5f6f37);
+}
+
+.gear-image {
+  background: linear-gradient(135deg, #2b2118, #8a6a34);
+}
+
+.default-image {
+  background: linear-gradient(135deg, #202020, #555555);
+}
+
+.roleplay-card-content {
+  padding: 1.2rem;
+}
+
+.roleplay-card-content h3 {
+  margin-bottom: 0.6rem;
+
+  color: #f2d27b;
+  font-size: 1.2rem;
+}
+
+.roleplay-card-content p {
+  margin: 0;
+
+  color: #dddddd;
+}
+
+.roleplay-card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.roleplay-card:hover {
+  transform: translateY(-4px);
+  border-color: #e9cc75;
+}
